@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendar</title>
-    <link rel="stylesheet" href="./Css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS2/newstyle.css">
+   <!--Animaciones div-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--Boostrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </head>
@@ -41,141 +45,150 @@
 </header>
 
 <main class="principal">
-  <section class="texth2 ">
-    <h2>Reserva de Horas Médicas</h2>
-    <p>En MaxLab encontrás médicos de trayectoria que te brindarán la mejor atención. Agenda ahora tu visita a Centros Médicos MaxLab.</p>
-  </section>
-    <form class="reserva" action="" method="post">
-        <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="">
-            <label for="apellidos">Apellidos</label>
-            <input type="text" name="apellidos" id="">
-        </div>
-        <div>
-        <label for="documento"> Nº documento</label>  
-        <input type="number" name="Nº documento" id="">  
-        </div>
+  <section> <div class="texth1">
+    <h1>Reserva de Horas Médicas</h1></div>
+    <div class="parrafopag4"><p>En MaxLab encontrás médicos de trayectoria que te brindarán la mejor atención. Agenda ahora tu visita a Centros Médicos MaxLab.</p>
+    </div></section>
 
-        <div>
-            <label for="">Mail</label>
-            <input type="email" name="" id="">
-        </div>
-        <div>
-            <label for="">Teléfono</label>
-            <input type="tel" name="tel" id="">
-        </div>
-        <div>
-            <label>Previsión</label> <select name="prevision">
-    
-                <option>Fonasa</option>
-                <option>Isapre</option>
-                <option>Otros</option>  
-            </select>
-            <label for="nombre">Especificar en caso de Isapre/Otros</label>
-            <input type="text" name="prevision" id="">
+  <section class="formulario2"> 
+    <form class="">
+    <div class="col-md-6 col-12">
+      <label for="formGroupExampleInput" class="form-label"> Nombre completo</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre completo" >
+
+    </div>
+    <div class="col-md-6 col-12">
+      <label for="formGroupExampleInput2" class="form-label">Nº documento</label>
+      <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Rut o Pasaporte sin puntos ni guión">
+    </div>
+    <div class="col-md-6 col-12">
+      <label for="formGroupExampleInput" class="form-label">Correo</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Ingresa tu email">
+
+    </div>
+    <div class="col-md-6 col-12">
+      <label for="formGroupExampleInput" class="form-label"> Telefono</label>
+      <input type="text" class="form-control" id="" placeholder="Ingresa tu nº de contacto">
+    </div>
+
+    <div class="col-md-6 col-12">
+      <label for="prevision" class="form-label">Previsión</label>
+      <select name="prevision" class="form-select form-select-lg mb-3">
+      <option selected="selected">Escoja su Previsión...</option>
+        <option>Fonasa</option>
+        <option>Isapre</option>
+            <option>Otros</option>
         
-        </div>    
-        <div>
-        <label>Grupo etario</label><select name="grupo">
+      </select>
+     
+    </div>
+    <div class="col-md-6 col-12">
+      <label for="detalleprevision" class="form-label">En caso de haber escogido Isapre u Otros, especifique a cual está afiliado: </label>
+      <input type="text" class="form-control" id="" placeholder="Ingrese su previsión">
+    </div>
 
-            <option>Niños</option>
-            <option>Mujeres</option>
-            <option>Hombres</option>
-            <option>Adulto Mayor</option>
-            
-        </select></div>    
-        <div>
-            <label>Sucursal</label><select name="sucursal">
-    
-                <option>Centro Médico Norte</option>
-                <option>Centro Médico Sur</option>
-                <option>Centro Bellavista</option>
-                <option>Cualquier sucursal</option>
+    <div class="col-md-6 col-12">
+      <label for="especialidad" class="form-label"> Especialidad</label>
+      <select name="especialidad" class="form-select form-select-lg mb-3">
+      
+        <option selected="selected">Escoja la especialidad...</option>
+        <option>Broncopulmonar Adulto</option>
+        <option>Broncopulmonar Infantil</option>
+        <option>Cardiología Adulto</option>
+        <option>Cardiología Infantil</option>
+        <option>Dermatología Adulto</option>
+        <option>Diabetología Adulto</option>
+        <option>Geriatría</option>
+        <option>Ginecología</option>
+        <option>Imagenes Radiología</option>
+        <option>Kinesiología</option>
+        <option>Medicina General</option>
+        <option>Nefrología</option>
+        <option>Nutricionista</option>
+        <option>Oftamología General</option>
+        <option>Obstetricia General</option>
+        <option>Pediatría</option>
+        <option>Psicología Adulto</option>
+        <option>Psicología Infantil</option>
+        <option>Reumatología</option>
+        <option>Traumatología</option>
+        <option>Toma de Muestras</option> 
+      
+      </select>
+      </div>
 
-            </select></div>       
+      <div class="col-md-6 col-12">
+        <label for="sucursal" class="form-label"> Elija la sucursal</label>
+        <select name="sucursal" class="form-select form-select-lg mb-3">
+          <option>Centro Médico Norte</option>
+          <option>Centro Médico Sur</option>
+          <option>Centro Bellavista</option>
+          <option>Cualquier sucursal</option>
+        
+        </select>
+        </div>
 
-            <div>
-                <label>Especialidad</label><select name="especialidad">
-                    <option>Broncopulmonar Adulto</option>
-                    <option>Broncopulmonar Infantil</option>
-                    <option>Cardiología Adulto</option>
-                    <option>Cardiología Infantil</option>
-                    <option>Dermatología Adulto</option>
-                    <option>Diabetología Adulto</option>
-                    <option>Geriatría</option>
-                    <option>Ginecología</option>
-                    <option>Imagenes Radiología</option>
-                    <option>Kinesiología</option>
-                    <option>Medicina General</option>
-                    <option>Nefrología</option>
-                    <option>Nutricionista</option>
-                    <option>Oftamología General</option>
-                    <option>Obstetricia General</option>
-                    <option>Pediatría</option>
-                    <option>Psicología Adulto</option>
-                    <option>Psicología Infantil</option>
-                    <option>Reumatología</option>
-                    <option>Traumatología</option>
-                    <option>Toma de Muestras</option>
-                    
-                </select></div>  
+        <div class="col-md-6 col-12">
+          <label for="horario" class="form-label"> Elija  horario de atención</label>
+          <select name="horario" class="form-select form-select-lg mb-3">
+            <option>Horario AM</option>
+            <option>Horario PM</option>
+            <option>Cualquier horario</option>
+          
+          </select>
+          </div>
 
-                <div>
-                    <label>Horario</label><select name="horario">
-            
-                        <option>Horario AM</option>
-                        <option>Horario PM</option>
-                        <option>Cualquier horario</option>
-                    </select></div>
-                    <div><input type="button" value="Buscar Hora"> </div>
-</form>
-
+  
+    <div class="col-md-6 col-12 formulario2">
+      <button type="submit" class="btn btn-primary">Buscar horas</button>
+    </div>
+  </form>
+</section>
 
 <div class="divpreguntas">
   <h2>Preguntas Frecuentes</h2>
 <div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
+  <div class="accordion-item divpreguntas">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        ¿Cuáles son las formas de pago de una consulta o procedimientos?
+       <p> ¿Cuáles son las formas de pago de una consulta o procedimientos?</p>
       </button>
     </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Puedes pagar en efectivo, con cheque o tarjeta de débito o crédito. Los Centros Médicos tambien cuentan con el servicio de venta de bonos Imed. Si deseas conocer con anticipación 
+    <div id="flush-collapseOne" class="divrespuesta accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">   Puedes pagar en efectivo, con cheque o tarjeta de débito o crédito. Los Centros Médicos tambien cuentan con el servicio de venta de bonos Imed. Si deseas conocer con anticipación 
         el valor de una consulta o procedimiento debes hacer la consulta cuando solicitas la hora al comunicarte a nuestro Contact Center: +562 234 625 00.</div>
     </div>
   </div>
-  <div class="accordion-item">
+  <div class="accordion-item ">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        ¿Cómo debo tramitar el reembolso si soy Isapre?
-      </button>
+         <p> ¿Cómo debo tramitar el reembolso si soy Isapre?
+    </p>  </button>
     </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+    <div id="flush-collapseTwo" class="divrespuesta accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">El Centro Médico tiene convenios con isapres que permiten, en la mayoría de los casos, tramitar las cuentas de forma interna. Por esta razón, la cobertura de su Isapre se verá generalmente reflejada en su cuenta. Si no es así, usted deberá pagar su cuenta y luego ir a reembolsar: primero a la Isapre y luego al Seguro en caso de que corresponda.</div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        ¿Existen consultas o procedimientos a precio Fonasa?
+         <p> ¿Existen consultas o procedimientos a precio Fonasa?</p>
       </button>
     </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+    <div id="flush-collapseThree" class="divrespuesta accordion-collapse collapse divpreguntas" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">Si. Nuestro centro médico cuenta con convenio Fonasa en las áreas de Imagenología, Laboratorio Clínico y en las consultas de Medicina general, Nutrición, Ginecología, Gastroenterologo y Pediatría.</div>
     </div>
   </div>
 </div>
 </div>
 
-<section class="seccion4">
+<div data-aos="zoom-in" class="seccion4">
   <h2> Nuestros convenios</h2>
 <div class="d-flex justify-content-center">
 <img class="iconoSalud1 img-fluid" src="./Imagenes/fonasa.jpg" alt="Fonasa">
 <img class="iconoSalud2 img-fluid" src="./Imagenes/isapres.jpg" alt="Isapre">
 </div>
-</section>
+</div>
 
 
 </main>
@@ -204,5 +217,8 @@
 </div>
 
 </footer>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

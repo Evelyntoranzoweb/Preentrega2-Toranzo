@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="./Css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS2/newstyle.css">
+  <!--Animaciones div-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--Boostrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </head>
@@ -44,56 +49,59 @@
 
 <!--Formulario de contacto-->
 <main class="principal">
-<section class="texth2">
-  <h2 > Formulario de Contacto</h2>
+<section> <div class="texth1">
+  <h1> Formulario de Contacto</h1></div>
 
 <p>Estimado paciente, su opinión es importante para nosotros. Por eso, con el objeto de dar una oportuna respuesta, agradeceremos completar los siguientes campos. Este servicio está disponible de lunes a viernes, de 9:00 a 18:00 horas. </p>
 </section>
-<section class="formulario">
-    <form action="" method="post">
-        <div>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="">
-            <label for="apellidos">Apellidos</label>
-            <input type="text" name="apellidos" id="">
-        </div>
-        <div>
-        <label for="documento"> Nº documento</label>  
-        <input type="number" name="Nº documento" id="">  
-        </div>
 
-        <div>
-            <label for="">Mail</label>
-            <input type="email" name="" id="">
-        </div>
-        <div>
-            <label for="">Teléfono</label>
-            <input type="tel" name="tel" id="">
-        </div>
-        <div>
-        <p>A continuación dejanos tu sugerencia/solicitud/reclamo/felicitaciones:</p>
-        <textarea name="" id="" cols="30" rows="10"></textarea></div>
-        <input type="submit" value="Enviar">
+<form class="formulario">
+  <div class="col-md-6 col-12">
+    <label for="formGroupExampleInput" class="form-label"> Nombre completo</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre completo">
 
-    </form>
-</section>
+  </div>
+  <div class="col-md-6 col-12-6">
+    <label for="formGroupExampleInput2" class="form-label">Nº documento</label>
+    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Ingresa tu Rut o Pasaporte sin puntos ni guión">
+  </div>
+  <div class="col-md-6 col-12>
+    <label for="formGroupExampleInput" class="form-label">Correo</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="Ingresa tu email">
+
+  </div>
+  <div class="col-md-6 col-12>
+    <label for="formGroupExampleInput" class="form-label"> Telefono</label>
+    <input type="text" class="form-control" id="" placeholder="Ingresa tu nº de contacto">
+  </div>
+
+  <div class="col-md-6 col-12">
+    <label for="exampleFormControlTextarea1" class="form-label"><p>A continuación dejanos tu sugerencia/solicitud/reclamo/felicitaciones:</p></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="col-md-6 col-12">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+</form>
+
+
 
 <!--Ubicación-->
 <section class="ubicacion">
-<div><h2>Ubicación</h2></div>
-<div>
+<div class="texth2"><h2>Ubicación</h2></div>
+<div class="ubicacion2">
     <h4> Centro Médico Sur</h4>
     <p>Av. Irarrazaval 2401, Ñuñoa, Santiago. Lunes a Sábado 08:00 a 20:00 hrs</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.813533315828!2d-70.60899912461345!3d-33.454164273388045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf4a5d274927%3A0x6a6e34e9abe2708e!2sAv.%20Irarr%C3%A1zaval%202401%2C%207750495%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1696900514703!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-<div>
+<div class="ubicacion2">
     <h4> Centro Médico Norte</h4>
     <p> Av. Recoleta 464, Recoleta, Santiago. Lunes a Sábado 08:00 a 20:00 hrs</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.835072032882!2d-70.64937232461475!3d-33.42754397339849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5be3f0fceb7%3A0x6b54a55569e6cd66!2sAv.%20Recoleta%20464%2C%208431657%20Recoleta%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1696900549252!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-<div>
+<div class="ubicacion2">
     <h4> Centro Médico y Toma de Muestras Bellavista</h4>
     <p> Av. Bellavista 0415, Providencia, Santiago. Lunes a Viernes 07:00 a 19:00 hrs. Sábado 07:30 a 19:30 hrs</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.6509777789165!2d-70.6317364246145!3d-33.43234267339674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c585f2a0b641%3A0x460083aead0073b0!2sBellavista%200415%2C%207520349%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1696900578737!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -129,5 +137,8 @@
 </div>
 
 </footer>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

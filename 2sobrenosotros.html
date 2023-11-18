@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre nosotros</title>
-    <link rel="stylesheet" href="./Css/styles.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS2/newstyle.css">
+    <!--Animaciones div-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
@@ -43,8 +48,8 @@
 </header>
 <main class="principal">
     <!--Mision, vision, breve descripción-->
-    <section class="texth2">
-      <h2>Nuestra Misión y Valores</h2></section>
+    <section>
+      <div  class="texth1"><h1>Nuestra Misión y Valores</h1></div>
     <div class="container text-center">
       <div class="row">
         <div class="col-12 col-md-6 subsec1">
@@ -61,13 +66,14 @@
         </div>
       </div>
     </div>
+  </section>
 
   <div class="container subsec2">
       <div class="row">
         <div class="col-md-3 col-12 subsec2">
           <h2> MaxLab se inauguró en 2001 con los mejores estándares de calidad, equipos médicos de excelencia y tecnología de punta.</h2>
         </div>
-        <div class="col-md-9 col-12">
+        <div class="col-md-9 col-12 subsec2">
           <p>
             El proyecto se gestó con el propósito de construir y desarrollar un centro médico de excelencia, innovador y con calidad de servicio, entregando una atención humanizada y de primer nivel para todo público. <br>
          
@@ -107,23 +113,23 @@
 </section>
 
 <!--Directiva-->
-<section class="divbox4 container-fluid row d-flex justify-content-center ">
-<h2>Conoce Nuestro Directorio</h2> 
+<section class="divbox4 container-fluid row d-flex justify-content-center">
+  <div data-aos="zoom-in"><h2>Conoce Nuestro Directorio</h2>  </div>
 
-<div class="divbox2 col-md-4 d-flex flex-column"> 
-    <img class="img-fluid" src="./Imagenes/Ing-David-Urruticoechea.png" alt="Ing-David-Urruticoechea">
+<div data-aos="zoom-in" class="divbox2 col-md-4 d-flex flex-column"> 
+    <img class="img-fluid" src="./Imagenes/Ing-David-Urruticoechea.png" alt="Ing-David-Urruticoechea"> 
     <div class="divbox3 col-12"><h4>David Urruticoechea - Presidente</h4>
     <p>Ingeniero Civil Industrial, Universidad Pontificia Universidad Católica de Chile</p></div>
 </div>
 
-<div class="divbox2 col-md-4 d-flex flex-column"> 
+<div data-aos="zoom-in" class="divbox2 col-md-4 d-flex flex-column"> 
     <img class="img-fluid" src="./Imagenes/Dr-Roberto-Rios.png" alt="Dr-Roberto-Rios">
     <div class="divbox3 col-12"><h4>Dr. Roberto Ríos - Director</h4> 
     <p> Médico Cirujano, especialidad Cirugía General, Universidad de Chile</p></div>
 
 </div>
 
-<div class="divbox2 col-md-4 d-flex flex-column"> 
+<div data-aos="zoom-in" class="divbox2 col-md-4 d-flex flex-column"> 
     <img class="img-fluid" src="./Imagenes/Ing-Gonzalo-Perez.png" alt="Ing-Gonzalo-Perez">
     <div class="divbox3 col-12"><h4> Gonzalo Perez - Director </h4>
     <p>Ingeniero Comercial, Universidad del Desarrollo</p></div>
@@ -132,10 +138,10 @@
 </section>
 
 <!--Directiva Médica-->
-<section class="divbox4 container-fluid row d-flex justify-content-center">
-<h2>Conoce Nuestra Dirección Médica</h2>
+<section  class="divbox4 container-fluid row d-flex justify-content-center">
+  <div data-aos="zoom-in"><h2>Conoce Nuestra Dirección Médica</h2></div>
 
-<div class="divbox2 col-12 col-lg-4 d-flex flex-column">
+<div data-aos="zoom-in" class="divbox2 col-12 col-lg-4 d-flex flex-column">
     <img class="img-fluid" src="./Imagenes/Dra-Evelyn-Undurraga.png" alt="Dra-Evelyn-Undurraga">
     <div class="divbox3 col-12"><h4>Dra. Evelyn Undurraga - Médico Director</h4>
     <p>Médico Cirujano, especialidad Pediatría y Medicina Intensiva,
@@ -143,32 +149,32 @@
 </div>
 
 
-<div class="divbox2 col-12 col-lg-4 d-flex flex-column"> 
-    <img class="img-fluid" src="./Imagenes/Dra-Alejandra-Garcia.png" alt="Dra-Alejandra-Garcia">
+<div data-aos="zoom-in" class="divbox2 col-12 col-lg-4 d-flex flex-column"> 
+    <img class="img-fluid divImg" src="./Imagenes/Dra-Alejandra-Garcia.png" alt="Dra-Alejandra-Garcia">
     <div class="divbox3 col-12"><h4> Dra. Alejandra García- Subdirector Médico de Urgencia y Gestión</h4>
     <p>Médico Cirujano, especialidad Medicina de Urgencia, Universidad de Mayor</p></div>
 
 </div>
 
-<div class="divbox2 col-12 col-lg-4 d-flex flex-column"> 
+<div data-aos="zoom-in" class="divbox2 col-12 col-lg-4 d-flex flex-column"> 
   <img class="img-fluid" src="./Imagenes/Dr-Juan-Reyes1.png" alt="Dr-Juan-Reyes1">
   <div class="divbox3 col-12"><h4> Dr. Juan Reyes - Médico Subdirector área quirúrgica</h4>
   <p>Médico Cirujano, especialidad Cirugía General, Universidad de Chile</p> </div>
 </div>
 
-<div class="divbox2 col-12 col-lg-4 d-flex flex-column"> 
+<div data-aos="zoom-in" class="divbox2 col-12 col-lg-4 d-flex flex-column"> 
     <img class="img-fluid" src="./Imagenes/Dr-Enrique-Bosch1.png" alt="Dr-Enrique-Bosch1">
     <div class="divbox3 col-12"><h4> Dr. Enrique Bosch - Médico Subdirector área Médica</h4>
     <p>Médico Cirujano, Universidad de Chile</p></div>
 </div>
 
-<div class="divbox2 col-12 col-lg-4 d-flex flex-column">  
+<div data-aos="zoom-in" class="divbox2 col-12 col-lg-4 d-flex flex-column">  
     <img class="img-fluid" src="./Imagenes/TM-Isabel-Alvarado1.jpg" alt="TM-Isabel-Alvarado1">
     <div class="divbox3 col-12"> <h4>TM. Mg. Isabel Alvarado - Jefe de servicios de apoyo Clínico</h4>
     <p>Tecnólogo Médico, Magíster en Salud Pública, Gestión y administración, Universidad de Chile</p></div>
 </div>
 
-<div class="divbox2 col-12 col-lg-4 d-flex flex-column">
+<div data-aos="zoom-in" class="divbox2 col-12 col-lg-4 d-flex flex-column">
 <img class="img-fluid" src="./Imagenes/Dra-María-Soto.jpg" alt="Dra-María-Soto">
 <div class="divbox3 col-12"><h4>Dra. María Soto - Médico Jefe Auditoría Médica</h4>
   <p>Médico Cirujano, especialidad Medicina Interna y Nefrología, Universidad del Desarrollo</p></div>
@@ -201,5 +207,8 @@
 </div>
 
 </footer>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

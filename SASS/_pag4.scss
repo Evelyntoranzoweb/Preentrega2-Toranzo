@@ -1,0 +1,40 @@
+
+//Página 4
+
+
+input::placeholder {
+    font-size: 1.5em;
+ }
+
+.parrafopag4 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulario2 div {
+    @include margenes(20px, 20px);
+    padding: 0px;
+    font-size: 1.5em;
+    }    
+
+.formulario2 button {
+        font-size: 1em; }
+
+.formulario2 button:hover {
+    background: rgb(9,121,99);
+    background: linear-gradient(90deg, rgba(9,121,99,1) 23%, rgba(2,228,58,1) 88%);
+     }
+    
+.divpreguntas {
+@include margenes(15px, 10px);  
+}
+.divrespuesta {
+    font-size: 1.5em;
+}
+
+
+  
+
+   
+     
+     

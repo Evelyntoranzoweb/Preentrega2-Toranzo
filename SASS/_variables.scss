@@ -1,0 +1,32 @@
+//Características
+//#EAD7BB (banner-footer)
+//#132043 (azul oscuro -h2, h4, etc)
+//#F1F0E8 (fondo de pantalla)
+//Variables
+
+$under: underline; 
+$celeste: #0665D8;
+$rosa: #71239B;
+$navfoot: #ECD2FA;
+$azul: #132043;
+
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin tituloh2 ($size, $color, $estilo) {
+    font-size: $size;
+    color: $color;
+    text-decoration: $estilo;
+}
+
+@mixin margenes ($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+@mixin decoracion-texto ($underline, $center) {
+text-decoration: $underline;
+text-align: $center;  
+}

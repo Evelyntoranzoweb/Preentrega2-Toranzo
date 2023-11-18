@@ -1,0 +1,421 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  background-color: #F1F0E8;
+  text-align: justify;
+}
+html h1 {
+  font-size: 3em;
+  color: #132043;
+  text-decoration: underline;
+  text-align: center;
+}
+html h2 {
+  font-size: 2rem;
+}
+html h3 {
+  font-size: 2rem;
+  color: #132043;
+}
+html h4 {
+  font-size: 2rem;
+  color: #132043;
+  text-decoration: underline;
+}
+html p {
+  font-size: 1.6em;
+}
+
+nav {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+}
+nav img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.navegador {
+  background-color: #F0DDB0;
+}
+.navegador h2 {
+  font-size: 2.7rem;
+  color: #132043;
+  text-decoration: solid;
+}
+.navegador a {
+  color: black;
+}
+
+.texth1 {
+  margin-bottom: 30px;
+}
+
+.carrusel-index {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.carrusel-index img {
+  width: 100%;
+  height: 600px;
+}
+
+.seccion3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.seccion3 h2 {
+  text-align: center;
+  color: #0665D8;
+}
+.seccion3 p {
+  text-align: left;
+}
+
+.seccion4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.seccion4 h2 {
+  text-align: center;
+  color: #0665D8;
+}
+.seccion4 .iconoSalud1 {
+  height: 200px;
+}
+.seccion4 .iconoSalud2 {
+  height: 200px;
+}
+
+footer {
+  background-color: #F0DDB0;
+  color: black;
+  font-size: 1em;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+footer .logo-lab {
+  display: flex;
+  justify-content: flex-start;
+}
+footer .logo-lab h2 {
+  font-size: 2.7rem;
+  color: #132043;
+  text-decoration: solid;
+}
+footer .logoatomo2 {
+  width: 50px;
+}
+footer .facebook {
+  width: 35px;
+  margin: 5px;
+}
+footer .instagram {
+  width: 38px;
+  margin: 5px;
+}
+
+.principal {
+  margin-top: 30px;
+}
+
+.subsec1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid #000;
+  padding: 20px;
+  background: rgb(207, 190, 77);
+  background: linear-gradient(90deg, rgb(207, 190, 77) 0%, rgb(246, 238, 162) 57%);
+}
+.subsec1 h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.subsec2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.subsec2 h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.pilares h2 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2.5em;
+}
+.pilares h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+.pilares .div1 {
+  border-style: groove;
+  border: 1px solid #000;
+  padding: 15px;
+  background: rgb(170, 244, 219);
+  background: linear-gradient(90deg, rgb(170, 244, 219) 72%, rgb(124, 184, 159) 100%);
+}
+.pilares .div1 p {
+  text-align: justify;
+}
+
+.divbox4 h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.divbox2 img {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.divbox3 {
+  border-style: double;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.divbox3 h4 {
+  background-color: #A0B8D6;
+}
+.divbox3 p {
+  font-size: 1.3em;
+}
+
+.divbox3a {
+  display: flexbox;
+  flex-direction: row;
+  align-items: center;
+}
+.divbox3a img {
+  width: 80%;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.divbox3b {
+  background-color: #F5E7D7;
+  border-style: double;
+  width: 200px;
+  margin-bottom: 15px;
+}
+.divbox3b a {
+  text-decoration: none;
+  color: #132043;
+}
+.divbox3b h3 {
+  text-align: center;
+}
+
+input::placeholder {
+  font-size: 1.5em;
+}
+
+.parrafopag4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formulario2 div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  font-size: 1.5em;
+}
+
+.formulario2 button {
+  font-size: 1em;
+}
+
+.formulario2 button:hover {
+  background: rgb(9, 121, 99);
+  background: linear-gradient(90deg, rgb(9, 121, 99) 23%, rgb(2, 228, 58) 88%);
+}
+
+.divpreguntas {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.divrespuesta {
+  font-size: 1.5em;
+}
+
+.formulario {
+  font-size: 1.5em;
+}
+.formulario div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.formulario p {
+  font-size: 1em;
+}
+.formulario button {
+  font-size: 1em;
+}
+.formulario button:hover {
+  background: rgb(9, 121, 99);
+  background: linear-gradient(90deg, rgb(9, 121, 99) 23%, rgb(2, 228, 58) 88%);
+}
+
+.ubicacion2 p {
+  font-size: 1.2rem;
+}
+
+iframe {
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .navegador {
+    background-color: #ECD2FA;
+  }
+  .texth2 {
+    text-align: center;
+  }
+  .principal p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .principal h3 {
+    text-align: center;
+  }
+  .carrusel-index img {
+    height: 300px;
+  }
+  .seccion3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccion3 h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #71239B;
+  }
+  .seccion3 p {
+    text-align: center;
+  }
+  .seccion4 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccion4 h2 {
+    color: #71239B;
+  }
+  .contact-center p {
+    display: none;
+  }
+  footer {
+    background-color: #ECD2FA;
+    width: 100%;
+  }
+  .pilares div {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .pilares p {
+    text-align: center;
+  }
+  .subsec1 div {
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .subsec2 div {
+    width: 100%;
+  }
+  .subsec2 div p {
+    text-align: center;
+  }
+  .divbox2 {
+    margin-left: 15px;
+  }
+  .divbox2 img {
+    width: 100%;
+  }
+  .principal {
+    margin-top: 5px;
+  }
+  .texth1 {
+    margin: 0px;
+  }
+  .texth1 h1 {
+    text-align: center;
+    color: #71239B;
+  }
+  .texth1 p {
+    margin: 0px;
+    text-align: center;
+  }
+  .divbox3a img {
+    width: 100%;
+    margin-left: 15px;
+  }
+  .divbox3b a {
+    text-align: center;
+  }
+  .reserva {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .divpreguntas {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .formulario2 div {
+    margin-top: 15px;
+    font-size: 1.5em;
+    width: 100%;
+  }
+  .formulario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .formulario div {
+    font-size: 1.5em;
+  }
+  .formulario p {
+    text-align: center;
+    color: red;
+  }
+  .ubicacion h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+  }
+  .ubicacion h4 {
+    text-align: center;
+  }
+  .ubicacion p {
+    text-align: center;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=newstyle.css.map */

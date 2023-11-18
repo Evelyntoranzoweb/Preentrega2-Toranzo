@@ -1,0 +1,30 @@
+//Página 5
+
+
+
+ .formulario {
+    font-size: 1.5em;
+    div {
+         @include margenes(20px, 20px);
+        } 
+    p{
+        font-size: 1em;
+        }   
+    button {
+    font-size: 1em;
+    }
+    button:hover {
+            background: rgb(9,121,99);
+            background: linear-gradient(90deg, rgba(9,121,99,1) 23%, rgba(2,228,58,1) 88%);
+ }
+}
+
+ 
+.ubicacion2 p{
+        font-size: 1.2rem;
+    } 
+iframe { 
+    @include size(50%, 50%); 
+}
+
+

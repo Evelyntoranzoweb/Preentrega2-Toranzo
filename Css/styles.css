@@ -4,7 +4,7 @@
 #EAD7BB (banner-footer)
 #132043 (azul oscuro -h2, h4, etc)
 #F1F0E8 (fondo de pantalla)*/
-
+/*
 html{
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
@@ -42,7 +42,7 @@ header div{
     align-items: center;
 }*/
 
-
+/*
 nav {
     width: 100%;
     font-family: 'Roboto', sans-serif;
@@ -77,22 +77,19 @@ header img{
     justify-content: space-between;
     align-items: center;
 
-} */
-
-
-
+} 
 
 header h1 {
     color: black;
 
 }
-
+/*
 
 /*ICONOS MAIN*/
 
 /*Página 1*/
 
-.carrusel-index{
+/*.carrusel-index{
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -101,7 +98,7 @@ header h1 {
 .carrusel-index img{
     height: 600px;
     width: 100%;
-}
+} 
 
 
 .seccion3 h2 {
@@ -139,11 +136,11 @@ header h1 {
    
     height: 200px;
 
-}
+}/*
 
 
 
-/*Página 2*/
+/*Página 2
 
 .principal {
 margin: 10px
@@ -160,6 +157,7 @@ border: 1px solid #000;
 padding: 20px;
 background-color: #E7F8C8;
 }
+
 
 .subsec2 h2 {
     text-decoration: underline;
@@ -190,6 +188,14 @@ text-align: justify;
     text-decoration: underline;
     text-align: center;
 }
+.divbox4 h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
 
 .divbox2 img{
     width: 100%;
@@ -212,16 +218,12 @@ font-size: 1.3em;
 .divbox3 h4 {
 background-color: #A0B8D6;
 }
+*/
 
-.divbox4 h2 {
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
 /*Página 3*/
 
-.texth2 h2 {
+/*Cada página hay que cambiar a h1 el titulo que está en h2*/ 
+/*.texth2 h1 {
 margin-top: 25px;
 margin-bottom: 20px;
 text-align: center;
@@ -230,6 +232,7 @@ text-decoration: underline;
 color:#132043;
 
 }
+
 .divbox3a img {
     width: 80%;
     height: 300px;
@@ -258,18 +261,16 @@ color:#132043;
     text-align: center;
 
 }
-
+*/
 /*Página 4 Agendar*/
 
-.reserva {
-    font-size: 1.4em;
-}
+/*
 
-
-.reserva div {
-margin-top: 10px;
+.formulario2 div {
+    margin-top: 10px;
 margin-bottom: 10px;
-}
+    font-size: 1.5em;
+ } 
 
 .divpreguntas {
     font-size: 1.5em;
@@ -280,11 +281,11 @@ margin-bottom: 10px;
 .divpreguntas button {
     font-size: 0.9em;
 }
-
+*/
 
  /*Página 5 Contacto*/
 
- .formulario {
+ /*.formulario {
     font-size: 1.5em;
  }
  
@@ -296,7 +297,6 @@ margin-bottom: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     }
-
 .ubicacion div {
     margin-top: 15px;
     margin-bottom: 15px; 
@@ -304,14 +304,18 @@ margin-bottom: 10px;
 .ubicacion p{
     font-size: 1.2rem;
 }
-
  iframe {
     width: 30%;
     height: 30%;
 }
 
-/*Footer*/
 
+*/
+
+
+
+/*Footer*/
+/*
 footer {
     background-color: #F0DDB0 ;
     color: black; 
@@ -322,56 +326,56 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     padding: 0px;
-}
+} OK
 
 footer div{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-}
+} OK
 
 footer .logo-lab {
 display: flex;
 justify-content: flex-start;
-}
+} OK
 
 footer h2{
 color: black;    
-}
+} OK
 
 footer .logoatomo2 {
     width: 50px;  
-}
+} OK
 
 footer .facebook {
     width: 35px;  
     margin: 5px;
-}
+} OK
 
 footer .instagram {
     width: 38px;
     margin: 5px;
 
- }  
+ } OK  
 
  .logo-lab h2 {
     font-size: 2.7rem;
     color: #132043;
     text-decoration: solid;
  }
+ */
 /*Media Query Index*/
 
 @media screen and (max-width:480px) {
 
-    .navegador {
+   /* .navegador {
         background-color:#ECD2FA;
     }
     .texth2 {
         text-align: center;
     }
     .carrusel-index img {
-        
         height: 300px;
     }
 
@@ -408,9 +412,9 @@ footer .instagram {
     footer {
         background-color:#ECD2FA;
     }
-
+*/
 /*Media Query Página 2*/
-
+/*
 .pilares div {
 margin: 3px;
 }
@@ -430,6 +434,85 @@ margin: 3px;
 
 .divbox2 img {
     width: 100%;
+} */
+
+/*Media Query Página 3*/
+/*
+.texth2 h2 {
+    text-align: center;
+    color: #71239B;
+
 }
+
+.texth2 p {
+    text-align: center;
+} 
+
+.divbox3a img {
+    width: 100%;
+
+}
+
+.divbox3b a {
+text-align: center;
+}*/
+
+/*Media Query Página 4*/
+
+/*
+.reserva {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario2 div {
+    margin-top: 20px;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+
+.divpreguntas  {
+    margin-top: 40px;
+    margin-bottom: 40px;
+} */
+
+/*Media Query página 5*/
+
+/*.formulario p {
+    text-align: center;
+    color: red;
+
+}
+
+.formulario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario div {
+    font-size: 1.4em; 
+}
+
+.ubicacion h2 {
+    text-align: center;
+    text-decoration: underline;
+    color:darkblue;
+}
+.ubicacion h4 {
+    text-align: center;
+}
+
+.ubicacion p {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+}
+}
+*/
+
 
 }

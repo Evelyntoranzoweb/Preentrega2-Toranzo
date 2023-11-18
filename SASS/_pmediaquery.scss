@@ -1,0 +1,168 @@
+// MEDIA QUERY INDEX
+
+@media screen and (max-width:480px) {
+
+    .navegador {
+            background-color: $navfoot;
+        }
+    .texth2 {
+            text-align: center;
+        }
+    .principal {
+        p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        h3 {
+            text-align: center;    
+        }
+    }
+    .carrusel-index img {
+            height: 300px;
+        }
+    .seccion3 {
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2 {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            color: $rosa;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .seccion4 {
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2{
+            color: $rosa;
+        }
+    }
+    .contact-center p {
+        display: none;
+    }
+    footer {
+        background-color: $navfoot;
+        width: 100%;
+    }
+    
+    //MEDIA QUERY PÁGINA 2
+    
+    .pilares {
+        div {
+            @include margenes(3px, 3px);
+            }
+            p {
+                text-align: center;
+            }
+    }
+    .subsec1 div {
+        width: 100%;
+        @include margenes(3px, 3px);
+        }
+    .subsec2 { 
+        div{
+            width: 100%;
+        p { 
+        text-align: center;
+        }
+        }
+         }
+    
+    .divbox2 {
+        margin-left: 15px;
+        img {
+        width: 100%;
+        }
+      }
+    
+    //Media Query Página 3
+    
+    .principal {
+        margin-top: 5px;
+        
+    }
+    
+    .texth1 {
+        margin: 0px;
+    h1 {
+        text-align: center;
+        color: $rosa;   
+        }
+    p {
+        margin: 0px;
+        text-align: center;   
+    }
+    }
+    
+    .divbox3a img {
+        width: 100%;
+        margin-left: 15px;
+    
+    }
+    
+    .divbox3b a {
+        text-align: center;
+        }
+    
+    
+    //Media query Página 4
+    
+    .reserva {
+        text-align: justify;
+        @include margenes(20px, 20px);
+    
+    }
+    
+    .divpreguntas  {
+        @include margenes(40px, 40px);
+    }
+    
+    .formulario2 div {
+        margin-top: 15px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    
+    //Media Query página 5
+    
+    .formulario {
+        @include margenes(20px, 20px);
+        div {
+            font-size: 1.5em;
+        }
+        p {
+            text-align: center;
+            color: red;
+        }
+    
+    }
+    
+    .ubicacion { 
+        h2 {
+        text-align: center;
+        text-decoration: underline;
+        color:darkblue;
+    }
+    h4 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    }
+    
+    iframe {
+        width: 100%;
+    }
+    
+    }
+    
